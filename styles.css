@@ -1,0 +1,44 @@
+
+    /* Transition effects */
+    .animated-button {
+        padding: 15px 30px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 10px;
+    }
+
+    .animated-button:hover {
+        background-color: #45a049;
+        transform: scale(1.1);
+    }
+
+    /* Animation for box */
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .spin-animation {
+        animation: spin 2s linear;
+    }
+
+    .demo-box {
+        width: 100px;
+        height: 100px;
+        background-color: #2196F3;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    /* Theme styles */
+    .dark-mode {
+        background-color: #1a1a1a;
+        color: white;
+    }
